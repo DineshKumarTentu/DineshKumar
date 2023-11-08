@@ -1,0 +1,238 @@
+.navbarsection{
+display:flex;
+flex-direction: row;
+justify-content: space-between;
+background-color:#ffffff;
+border-radius: 5px;
+}
+.navbar-right{
+    align-items: center;
+    display: flex; 
+    padding: 5px;
+    font-weight: bold;
+    font-family: roboto;
+    color:rgb(1, 1, 1);
+}
+.ahome{
+    padding: 5px;
+}
+.navbar-left{
+    padding-left: 15px;
+}
+.homebarsection{
+   background-color:#1d1d1d;
+   width:97.5vw;
+   height: 50vh;
+   display: flex;
+   border-radius: 10px;
+   margin-top: 5px;
+   background-size: cover;
+   margin-bottom:5px;
+}
+.homeleft{
+    color: rgb(17, 17, 17);
+    flex-direction:column;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+}
+.namesec{
+color:white;
+text-align: end;
+margin-right:10px;
+}
+.homeright{
+justify-content: center;
+display: flex;
+flex-direction: column;
+width: 50vw;
+}
+.imagesec{
+    width: 250px;
+}
+.navimage{
+    width:50px;
+    height: 55px;
+}
+.para{
+    font: weight 80px;;
+    color: rgb(255, 255, 255);
+    font-family:Roboto;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.services-sub-cont{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding:60px; 
+}
+.servicesec{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:#fefefe;
+    background-color:#1d1d1d;
+    border-radius: 15px;
+   background-size: cover;
+   height: 50vh;
+}
+.servicesection{
+padding:15px;
+text-align: center;
+}
+.contactsection{
+ width:100%;
+margin-top:3px;
+display: flex;
+justify-content: center;
+background-color:#1d1d1d;
+background-size: cover;
+border-radius: 15px;
+
+}
+.contact-left{
+    margin-top:3px;
+    display: flex;
+    justify-content: center;
+}
+.contact-right{
+    width:40vw;
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    color: white;
+    padding-right: 25px;
+}
+.mobile{
+    color: rgb(138, 163, 61);
+}
+.webimage{
+    height:15vh;
+    border-radius: 5px;
+}
+.helpsectiom{
+
+max-width: 100vw;
+height:600px;
+background-image:url("https://img.freepik.com/free-photo/top-view-diversity-composition-with-different-colored-paper-hands-with-copy-space_23-2148642214.jpg?w=1380&t=st=1699086840~exp=1699087440~hmac=4e6882408b7f82eae201c44b79f0b4fe6e34196b36711fd591908fed3808ddf0");
+padding: 5px;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+background-size: cover;
+border-radius:10px;
+margin-top:5px;
+border-style: groove;
+border-color: rgb(13, 13, 13);
+}
+.col1{
+
+    width:500px;
+    height: 200px;
+    padding: 10px;
+    border-radius:5px;
+    text-align: end;
+    color: #f8f6f6;
+}
+.col2{
+    width: 500px;
+    height: 200px;
+    padding: 10px;
+    color: #f9f4f4;
+}
+.textbox{
+    border-radius: 5px;
+    background-color: rgb(6, 6, 6);
+    color: #fae8d7;
+    height: 30px;
+    width:250px;
+    text-align: center;
+    border-style: groove;
+    border-color: #ec7709;
+}
+.name{
+    font-size:25px;
+    text-shadow: 5px 5px 10px rgb(7, 7, 7);
+}
+.tellmebox{
+    border-radius: 5px;
+    background-color: rgb(6, 6, 6);
+    color: #fae8d7;   
+    text-align: center;
+    border-style: groove;
+    height: 100px;
+    width:480px;
+    border-color:#ec7709;
+}
+.submitbtn{
+    margin-top:10px;
+    height:50px;
+    width:100px;
+    border-radius:10px;
+    background-color: black;
+    color: aliceblue;
+    border-style:groove;
+    border-color:#ec7709;
+    font-weight: bold;
+}
+.reserved{
+    text-align: center;
+  
+}
+@media screen and (max-width: 600px) {
+    
+    .navbarsection{
+        width:100%;
+    }
+
+    .homebarsection{
+        width:100%;
+    }
+    .homebarsection{
+        width:100%;
+        height:50%;
+    }
+    .namesec{
+        text-align: center;
+        width: 100%;
+    }
+    .homeright{
+        width:100%;
+        display: flex;
+        flex-direction:row;margin-top: 30px;
+    }
+    .imagesec{
+        height:100px;
+        width:100px;
+        border-radius: 49px;
+        
+    }
+    .para{
+        font-size:15px;
+        margin:5px;
+    }
+    .servicesec{
+        width:100%;
+        height:100%;
+        flex-direction: column;
+        color:#fefefe;
+        background-color:#1d1d1d;
+        display: flex;
+    }
+    .services-sub-cont{
+    display: flex;
+    flex-direction: column;
+    }
+    .col1 , .col2, .helpsectiom{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    }
+    .tellmebox{
+        height: 100%;
+        width:100%;
+    }
+}
